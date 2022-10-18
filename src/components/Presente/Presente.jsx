@@ -1,4 +1,4 @@
-import styles from './styles.module.css';
+import styles from './presente.module.css';
 
 export function Presente() {
   return (
