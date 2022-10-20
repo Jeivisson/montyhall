@@ -4,10 +4,8 @@ import { Presente } from '../src/components/Presente/Presente';
 export default function Home() {
   return (
     <div style={{ display: 'flex' }}>
-      <Porta selecionada />
+      <Porta selecionada={true} />
       <Porta selecionada={false} />
-      <Porta selecionada />
-      <Porta />
     </div>
   );
 }
