@@ -1,4 +1,9 @@
 export default class PortaModel {
+
+  map(arg0: (porta: any) => JSX.Element) {
+    throw new Error('Method not implemented.')
+  }
+
   #numero : number
   #temPresente : boolean
   #selecionada : boolean
@@ -22,6 +27,9 @@ export default class PortaModel {
   }
   get aberta(){
     return this.#aberta
+  }
+  get fechada(){
+    return !this.#aberta
   }
 
   desselecionar() {
