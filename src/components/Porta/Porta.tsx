@@ -1,10 +1,11 @@
 import React from 'react';
 
 import PortaModel from '../../model/porta';
-import { Presente } from '../Presente/Presente';
+import { Presente } from '../Presente/Presente.tsx';
 import styles from './porta.module.css';
 
 interface PortaProps {
+
   value: PortaModel
   onChange: (novaPorata: PortaModel) => void
 }
